@@ -1,0 +1,37 @@
+.file-input-component {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: first baseline;
+}
+
+.upload {
+    background: #FFFFFF;
+/* Background / Main */
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.upload input[type=file] {
+    font-size: 16px;
+    line-height: 38px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.uploaded-file-name {
+    margin-left: 10px !important;
+    position: relative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+/* identical to box height */
+    text-align: right;
+    letter-spacing: 0.2px;
+    /* Grey5 */
+    color: #566681;
+}
